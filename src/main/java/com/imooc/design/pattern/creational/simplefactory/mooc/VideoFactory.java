@@ -1,4 +1,4 @@
-package com.imooc.design.pattern.creational.simplefactory;
+package com.imooc.design.pattern.creational.simplefactory.mooc;
 
 /**
  * @Author safeXuan

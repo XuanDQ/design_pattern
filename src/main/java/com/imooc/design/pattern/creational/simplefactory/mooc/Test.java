@@ -1,4 +1,4 @@
-package com.imooc.design.pattern.creational.simplefactory;
+package com.imooc.design.pattern.creational.simplefactory.mooc;
 
 /**
  * @Author safeXuan
@@ -19,19 +19,20 @@ public class Test {
 //        }
 //        video.produce();
 
-        //v3-2:反射
-//        VideoFactory videoFactory = new VideoFactory();
-//        Video video = videoFactory.getVideo(JavaVideo.class);
-//        if(video == null){
-//            return;
-//        }
-//        video.produce();
+        //v3-1:反射
+        VideoFactory videoFactory = new VideoFactory();
+        Video video = videoFactory.getVideo(JavaVideo.class);
+        if (video == null) {
+            return;
+        }
+        video.produce();
 
-        //v3-1: static 方法
+        //v3-2: static 方法
 //        Video video = VideoFactory.getVideo(JavaVideo.class);
 //        if(video == null){
 //            return;
 //        }
 //        video.produce();
+
     }
 }
