@@ -10,7 +10,6 @@ public class Test {
         //VideoFactaory videoFactory3 = new FEVideoFactory();
         Video video = videoFactory.getVideo();
         video.produce();
-
     }
 
 }
