@@ -5,8 +5,8 @@ import org.apache.commons.collections.map.HashedMap;
 import java.util.Map;
 
 /**
- * @Author safeXuan
- * @Version 1.0 2020/3/18
+ * @author  safeXuan
+ * @version 1.0 2020/3/18
  */
 public class RuleConfigParserFactory2 {
     private static final Map<String,IRuleConfigParser> cachedParsers = new HashedMap();

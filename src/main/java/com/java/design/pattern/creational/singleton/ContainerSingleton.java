@@ -7,8 +7,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Author safeXuan
- * @Version 1.0 2020/3/19
+ * @author  safeXuan
+ * @version 1.0 2020/3/19
  */
 public class ContainerSingleton {
     private ContainerSingleton() {

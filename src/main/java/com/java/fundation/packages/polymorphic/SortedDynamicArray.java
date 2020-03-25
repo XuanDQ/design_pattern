@@ -1,9 +1,9 @@
 package com.java.fundation.packages.polymorphic;
 
 /**
- * @Author: Xuan
- * @Date: 2020/3/23 10:00 PM
- * @Description:
+ * @author Xuan
+ * @date  2020/3/23 10:00 PM
+ * description:
  */
 public class SortedDynamicArray extends DynamicArray {
 

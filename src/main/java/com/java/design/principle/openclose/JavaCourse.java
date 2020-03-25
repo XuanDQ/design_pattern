@@ -1,8 +1,8 @@
 package com.java.design.principle.openclose;
 
 /**
- * @Author safeXuan
- * @Version 1.0 2020/3/8
+ * @author  safeXuan
+ * @version 1.0 2020/3/8
  * 类似于 serviceImpl的接口实现类
  * 内置属性和构造器赋值免于创建实体类
  */

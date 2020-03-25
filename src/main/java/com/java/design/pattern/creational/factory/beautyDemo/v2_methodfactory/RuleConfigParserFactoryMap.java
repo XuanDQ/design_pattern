@@ -6,8 +6,8 @@ import org.apache.commons.collections.map.HashedMap;
 import java.util.Map;
 
 /**
- * @Author safeXuan
- * @Version 1.0 2020/3/20
+ * @author  safeXuan
+ * @version 1.0 2020/3/20
  */
 public  class RuleConfigParserFactoryMap {
 

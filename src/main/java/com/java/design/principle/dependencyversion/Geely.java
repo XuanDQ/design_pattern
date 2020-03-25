@@ -1,8 +1,8 @@
 package com.java.design.principle.dependencyversion;
 
 /**
- * @Author AsafeXuan
- * @Version 1.0 2020/3/9
+ * @author  AsafeXuan
+ * @version 1.0 2020/3/9
  */
 public class Geely {
     private ICourse iCourse;

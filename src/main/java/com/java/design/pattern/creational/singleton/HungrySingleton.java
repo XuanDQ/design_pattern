@@ -3,8 +3,8 @@ package com.java.design.pattern.creational.singleton;
 import java.io.Serializable;
 
 /**
- * @Author safeXuan
- * @Version 1.0 2020/3/18
+ * @author  safeXuan
+ * @version 1.0 2020/3/18
  */
 public class HungrySingleton implements Serializable {
     private final static HungrySingleton hungrySingleton;

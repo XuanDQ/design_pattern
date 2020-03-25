@@ -3,8 +3,8 @@ package com.java.fundation.packages;
 import java.math.BigDecimal;
 
 /**
- * @Author safeXuan
- * @Version 1.0 2020/3/19
+ * @author  safeXuan
+ * @version 1.0 2020/3/19
  * 从业务角度分析，id,createTime在创建钱包的时候就确定好了，之后不应该被改动。所以不暴露这两个属性的任何修改方法。
  */
 public class Wallet {

@@ -1,9 +1,9 @@
 package com.java.fundation.packages.polymorphic;
 
 /**
- * @Author: Xuan
- * @Date: 2020/3/23 10:06 PM
- * @Description:
+ * @author Xuan
+ * @date  2020/3/23 10:06 PM
+ * description:
  */
 public class Example {
     public static void test(DynamicArray dynamicArray) {

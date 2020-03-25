@@ -1,8 +1,8 @@
 package com.java.design.pattern.structural.decorator.v1;
 
 /**
- * @Author safeXuan
- * @Version 1.0 2020/3/20
+ * @author  safeXuan
+ * @version 1.0 2020/3/20
  */
 public class Test {
     public static void main(String[] args) {

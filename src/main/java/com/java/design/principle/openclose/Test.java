@@ -1,8 +1,8 @@
 package com.java.design.principle.openclose;
 
 /**
- * @Author safeXuan
- * @Version 1.0 2020/3/8
+ * @author  safeXuan
+ * @version 1.0 2020/3/8
  */
 public class Test {
     public static void main(String[] args) {

@@ -1,9 +1,9 @@
 package com.java.fundation.packages.polymorphic;
 
 /**
- * @Author: Xuan
- * @Date: 2020/3/23 9:19 PM
- * @Description:
+ * @author Xuan
+ * @date  2020/3/23 9:19 PM
+ * description:
  */
 public class DynamicArray {
     private static final int DEFAULT_CAPACITY = 10;

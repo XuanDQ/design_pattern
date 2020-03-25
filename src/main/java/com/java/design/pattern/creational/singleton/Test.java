@@ -6,8 +6,8 @@ import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 
 /**
- * @Author safeXuan
- * @Version 1.0 2020/3/17
+ * @author  safeXuan
+ * @version 1.0 2020/3/17
  */
 public class Test {
     public static void main(String[] args) throws InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException, NoSuchFieldException, IOException, ClassNotFoundException {

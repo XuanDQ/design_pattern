@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Author safeXuan
- * @Version 1.0 2020/3/10
+ * @author  safeXuan
+ * @version 1.0 2020/3/10
  */
 public class Child extends Base{
 

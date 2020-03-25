@@ -1,8 +1,8 @@
 package com.java.design.pattern.creational.builder.v2;
 
 /**
- * @Author safeXuan
- * @Version 1.0 2020/3/16
+ * @author  safeXuan
+ * @version 1.0 2020/3/16
  */
 public class Test {
     public static void main(String[] args) {
