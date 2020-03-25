@@ -1,8 +1,10 @@
 package com.java.design.pattern.creational.factory.beautyDemo.v3_abstractfactory;
 
 /**
- * @author  safeXuan
- * @version 1.0 2020/3/20
+ * @author safeXuan
+ * @version 1.0
+ * description：
+ * @date 2020/3/25 5:30 PM
  */
-public class XmlSystemConfigParser extends SystemConfigParser {
+public class XmlSystemConfigParser implements ISystemConfigParser {
 }
