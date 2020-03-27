@@ -1,4 +1,4 @@
-package com.java.design.pattern.creational.factory.simplefactory.mooc;
+package com.java.design.pattern.creational.factory.simplefactory;
 
 /**
  * @author  safeXuan
@@ -8,27 +8,28 @@ public class Test {
     public static void main(String[] args) {
 
         //v1
-//   Video video = new JavaVideo();
+//   AbstractVideo video = new JavaVideo();
 //     video.produce();
 
         //v2
 //        VideoFactory videoFactory = new VideoFactory();
-//        Video video = videoFactory.getVideo("java");
+//        AbstractVideo video = videoFactory.getVideo("java");
 //        if(video == null){
 //            return;
 //        }
 //        video.produce();
 
-        //v3-1:反射
+
+        // v3-1:反射
         VideoFactory videoFactory = new VideoFactory();
-        Video video = videoFactory.getVideo(JavaVideo.class);
+        AbstractVideo video = videoFactory.getVideo(JavaVideo.class);
         if (video == null) {
             return;
         }
         video.produce();
 
         //v3-2: static 方法
-//        Video video = VideoFactory.getVideo(JavaVideo.class);
+//        AbstractVideo video = VideoFactory.getVideo(JavaVideo.class);
 //        if(video == null){
 //            return;
 //        }

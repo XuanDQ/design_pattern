@@ -1,4 +1,4 @@
-package com.java.design.pattern.creational.factory.simplefactory.mooc;
+package com.java.design.pattern.creational.factory.simplefactory;
 
 /**
  * @author  safeXuan
@@ -6,22 +6,18 @@ package com.java.design.pattern.creational.factory.simplefactory.mooc;
  */
 public class VideoFactory {
     // v3:反射方式获取
-    public Video getVideo(Class c) {
-        Video video = null;
+    public AbstractVideo getVideo(Class c) {
+        AbstractVideo video = null;
         try {
-            video = (Video) Class.forName(c.getName()).newInstance();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
+            video = (AbstractVideo) Class.forName(c.getName()).newInstance();
+        } catch (InstantiationException | IllegalAccessException | ClassNotFoundException e) {
             e.printStackTrace();
         }
-        return video.produce();
+        return video != null ? video.produce() : null;
     }
 
 //v1 :if-else
-//    public Video getVideo(String type){
+//    public AbstractVideo getVideo(String type){
 //        if("java".equalsIgnoreCase(type)){
 //            return new JavaVideo();
 //        }else if("python".equalsIgnoreCase(type)){
@@ -31,10 +27,10 @@ public class VideoFactory {
 //    }
 
     //v2 static
-//    static Video getVideo(Class c) {
-//        Video video = null;
+//    static AbstractVideo getVideo(Class c) {
+//        AbstractVideo video = null;
 //        try {
-//            video = (Video) Class.forName(c.getName()).newInstance();
+//            video = (AbstractVideo) Class.forName(c.getName()).newInstance();
 //        } catch (InstantiationException e) {
 //            e.printStackTrace();
 //        } catch (IllegalAccessException e) {
