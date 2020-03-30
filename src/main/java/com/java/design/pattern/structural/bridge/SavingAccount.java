@@ -4,6 +4,7 @@ package com.java.design.pattern.structural.bridge;
  * @author safeXuan
  * @version 1.0
  * description：
+ *
  * @date 2020/3/27 5:14 下午
  */
 public class SavingAccount implements Account {

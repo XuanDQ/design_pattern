@@ -12,6 +12,10 @@ public abstract class Bank {
     Bank(Account account){
         this.account = account;
     }
-    //声明成一样的方法名并不是强制的
+
+    //这个方法和account里的接口方法是一样的，
+    // bank里面的具体方法要委托给account里面的openAccount()
+    // 所以声明成一样的方法名，不是一样的也ok
     abstract Account openAccount();
+
 }
