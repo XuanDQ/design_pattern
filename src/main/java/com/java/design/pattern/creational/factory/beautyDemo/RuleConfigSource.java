@@ -9,7 +9,7 @@ public class RuleConfigSource {
     public RuleConfig load(String ruleConfigFilePath) throws InvalidRuleConfigException {
         // 根据传入的文件获取其后缀（文件类型）
         String ruleConfigFileExtension = getFileExtension(ruleConfigFilePath);
-        IRuleConfigParser parser = RuleConfigParserFactory2.createParser(ruleConfigFilePath);
+        IRuleConfigParser parser = RuleConfigParserFactory2.createParser(ruleConfigFileExtension);
         if (parser == null){
             throw   new InvalidRuleConfigException(
                     "Rule config file format is not supported " + ruleConfigFilePath);

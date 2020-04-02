@@ -28,7 +28,7 @@ public class VideoFactory {
 
     //v2 static
 //    static AbstractVideo getVideo(Class c) {
-//        AbstractVideo video = null;
+//        AbstractVideo  video = null;
 //        try {
 //            video = (AbstractVideo) Class.forName(c.getName()).newInstance();
 //        } catch (InstantiationException e) {
